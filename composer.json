@@ -1,0 +1,21 @@
+{
+    "name": "butterfly/interfaces-template-render",
+    "type": "library",
+    "description": "Butterfly PHP. Template Render Interfaces",
+    "keywords": ["interfaces"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marat Fakhertdinov",
+            "email": "marat.fakhertdinov@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Butterfly\\Interfaces\\TemplateRender\\": "src/"
+        }
+    }
+}
